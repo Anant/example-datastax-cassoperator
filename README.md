@@ -19,5 +19,9 @@ kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisione
 ```bash
 kubectl patch storageclass standard -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"false"}}}'
 ```
+```bash
+kubectl patch storageclass local-path -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
+```
+
 
 
