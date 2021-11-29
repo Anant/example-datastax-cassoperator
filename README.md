@@ -9,7 +9,7 @@ Quickly spin up a local kubernetes cluster and deploy Cassandra using cass-opera
 
 ## 1. Start the Kubernetes cluster
 ```bash
-minikube start --cpus=5 --memory='10128m' --kubernetes-version=1.21.2
+minikube start --cpus=5 --memory='10128m' --kubernetes-version=1.22.4
 ```
 ## 2. Install the cert-manager
 ```bash
